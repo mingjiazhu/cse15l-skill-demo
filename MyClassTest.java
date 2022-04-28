@@ -5,7 +5,7 @@ import org.junit.*;
 public class MyClassTest {
     @Test
     public void testLargerThanFive() {
-        assertTrue(MyClass.largerThanFive(3));
+        assertFalse(MyClass.largerThanFive(3));
     }
 
 }
